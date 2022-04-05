@@ -13,14 +13,17 @@ img {
     width: 100px;
 }
 .forgalom {
-    position: relative;
+    position: relative; /*szülőelem*/
 }
 .auto {
 /*helyezd el az autót a lámpa alatt az úttesten!*/
-
+    position: absolute;
+    top: 40%;
+    left: calc(30% - 100px);
+    padding: 10px;
 }
 .lampa {
-    position: absolute;
+    position: absolute; /*gyerek*/
     width: 20px;
     height: 70px;
     background: rgb(27, 26, 26);
